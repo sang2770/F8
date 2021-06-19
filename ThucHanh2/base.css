@@ -1,0 +1,140 @@
+:root{
+    --text-color:#444444;
+    --white-color:#fff;
+
+}
+*{
+    box-sizing: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.enableshow{
+    display: block !important;
+}
+html{
+    font-size:62.5%;
+    /* line-height: 2.6rem; */
+    font-family: Jost;
+    box-sizing: border-box;
+    position: relative;
+}
+@keyframes Daira{
+    0%{
+        width: 0px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
+}
+@keyframes grow{
+    0%{
+        /* display: none; */
+        opacity: 0.2;
+        transform: translateY(40%);
+        
+    }
+    100%{
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes toleft{
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-110%);
+    }
+}
+.toLeft{
+    animation: toleft 0.4s forwards;
+}
+@keyframes toright{
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+.toRight{
+    animation: toright 0.4s forwards;
+}
+@keyframes leftToright{
+    0%{
+        opacity: 0.4;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.leftToright{
+    animation: leftToright 0.4s forwards;
+}
+
+@keyframes rightToleft{
+    0%{
+        opacity: 0.4;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.rightToleft{
+    animation: rightToleft 0.4s forwards;
+}
+@keyframes Hien{
+    0%{
+        opacity: 0.3;
+        transform: translateY(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
+@keyframes zoom{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes hiddenright{
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+/* override */
+.glide{
+    width: 50vw !important;
+    margin: auto;
+}
+.glide__bullets{
+    bottom: -6em ;
+}

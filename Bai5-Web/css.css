@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* common */
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.333%
+}
+.col-12{
+    width: 100%;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.pull-right{
+    float: right !important;
+}
+.btn{
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        padding: 10px 16px;
+        display: inline-block;
+        margin-top: 15px;
+        cursor: pointer;
+        border: none;
+
+}
+/* header */
+#header{
+    height: 46px;
+    background-color: #000;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    /* overflow: hidden; */
+}
+.mobile-menu-btn{
+    float: right;
+    padding: 0 20px;
+    color: white;
+    position: fixed;
+    font-size: 30px;
+    top:7px;
+    right: 0;
+}
+.mobile-menu-btn:hover{
+    cursor: pointer;
+}
+#nav>li{
+    display: inline-block;
+    position: relative;
+}
+#nav li{
+    list-style: none;
+    line-height: 46px;
+    /* position: relative; */
+}
+#nav>li>a{
+    color: #fff;
+}
+#nav li a{
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+}
+#nav>li:hover>a,
+#nav .subnav li:hover a{
+    color:#000;
+    background-color: #ccc;
+}
+#nav .subnav{
+    display: none;
+    position: absolute;
+    top:46px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav li:hover .subnav{
+    display:block;
+}
+#nav .subnav a{
+    color:black;
+    text-transform: none;
+    padding: 0 30px;
+    line-height: 38px;
+}
+
+/* slider */
+#slider{
+    padding-top:50%;
+    margin-top: 46px;
+    background: url(ny.jpg) top center /cover no-repeat;
+    position: relative;
+}
+.slider_text{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#content{
+}
+.content_section{
+    width: 800px;
+    max-width: 100%;
+    padding: 64px 0;
+    margin: 0 auto;
+    padding-bottom: 112px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.section-sub{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+#content .member-list{
+    padding-top: 48px;
+    /* overflow: hidden; */
+}
+.clear{
+    clear: both;
+}
+#content .member-item{
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+
+}
+.member-item .member-name{
+    font-size: 15px;
+
+}
+.member-item .member-avatar{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 60%;
+}
+/* tour section */
+.tour-section{
+    background-color: black;
+}
+.white{
+    color: white !important;
+}
+.ticket-list{
+    background-color: #fff;
+    margin-top:39px;
+}
+.ticket-list li{
+    color: #757575;
+    font-size: 15px;
+    padding:11px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+.ticket-list .sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding:3px 4px;
+    margin-left: 16px;
+}
+.ticket-list .quantity{
+    float: right;
+    width: 24px;
+    height: 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+/* place */
+.place-list{
+    margin-top:16px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-heading{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.place-body{
+    background-color: #fff;
+    padding:16px;
+    font-size: 15px;
+}
+
+.place-time{
+    margin-top: 15px;
+    color: #757575;
+    line-height: 1.4;
+}
+.place-buy-btn:hover{
+    background-color:#ccc;
+    color: #000;
+    cursor: pointer;
+    
+}
+/* contact */
+.contact-content{
+    margin-top: 48px;
+}
+.contact-inf{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-form{
+    font-size: 15px;
+
+}
+.form-control{
+    width: 100%;
+    padding:11px;
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+/* .form-submit-btn{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+    
+} */
+.map-section img{
+    width: 100%;
+    display: block;
+}
+#footer{
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+#footer p {
+    text-align: center;
+
+}

@@ -1,0 +1,4 @@
+css.gg
+<link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>\
+fontawesome
+<script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>

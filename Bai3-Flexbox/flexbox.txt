@@ -1,0 +1,19 @@
+1. áp dụng flexbox
+display:flex  // inlineflex
+
+// áp dụng cho flex container
+
+2.trục main axis( trục ngang)
+flex-director  // row  ngang
+		// column  doc
+justify-content: xác định khoảng cách giữa các phần tử
+
+3. trục cross axis (vuông góc với main axis)
+align-item  
+
+align-content  // khoang cach cang hang 
+4.flexwrap: container  bao trùm   khi muốn thiết lập kích thước phần tử item
+
+// áp dụng cho flex item
+flex  :kích thước so với các phần tử
+order: thứ tự

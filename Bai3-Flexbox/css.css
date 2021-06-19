@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.nav{
+    min-height: 42px;
+    background-color: brown;
+    display: flex;
+    /* vị trí */
+    justify-content: space-between;
+}
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+.nav-item{
+    color:white;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+/* form */
+.form-container{
+    max-width: 720px;
+    padding:32px;
+    margin: 36px auto 0 auto;
+    background-color: gray;
+}
+.form_row{
+    padding: 8px 0px ;
+    display: flex;
+}
+.form_label{
+    min-width: 90px;
+}
+.form_input{
+    flex:1;
+}
+/* column layout */
+.column-layout{
+    margin-top: 36px;
+    padding:12px 0;
+    background-color: grey;
+    display: flex;
+}
+.column-item{
+    padding:0 16px;
+
+
+}
+.sidebar-one{
+    flex: 1;
+    order: 2;
+}
+.sidebar-two{
+    flex: 1;
+    order:1;
+}
+.main-column{
+    /* gấp 3 lần những tk còn lại */
+    flex: 2; 
+    order: 3;
+}
+/* feature layout */
+.feature-layout{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+.feature-item{
+    padding:12px 16px;
+    margin-top: 16px;
+    /* kích thước */
+    flex-basis: 30%;
+   
+}
+@media (min-width:740px)
+{
+    .feature-layout{
+    flex-direction: row;
+    }
+}
+.feature-item:nth-child(1){
+    background-color: grey;
+}
+.feature-item:nth-child(2){
+    background-color:lightblue;
+}
+.feature-item:nth-child(3){
+    background-color: pink;
+}
+/*wrap-layput */
+.wrap-layout{
+    background-color: white;
+    margin-top: 36px;
+    padding: 12px 0px 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+.wrap-layout-item{
+    width: 148px;
+    height: 90px;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: red;
+}
+/* center-layout */
+.center-layout{
+    background-color: teal;
+    margin: 36px auto 0px auto;
+    padding:32px 0;
+    max-width: 640px;
+    height: 360px;
+    display: flex;
+}
+.center-layout-item{
+    font-size: 42px;
+    font-weight: 700;
+    margin: auto;
+}
+/* chart layout */
+.chart-layout{
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    height: 320px;
+    background-color: thistle;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.chart-layout-item{
+    width: 60px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    height: var(--percent);
+    animation: grow ease-in-out 1s;
+}
+@keyframes grow{
+    from{
+        height: calc(var(--percent) - 50%);
+        opacity: 0;
+    }
+    to{
+        height: calc(var(--percent));
+        opacity: 1;
+    }
+}

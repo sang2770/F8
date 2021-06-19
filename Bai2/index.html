@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        a::after{
+            content: "("attr(href)")";
+        }
+        .box1::after{
+            content: attr(data-tittle);
+        }
+        .box5-1::before{
+            display: block;
+            content: "";
+            width: 50px;
+            height: 50px;
+            background-color: brown;
+        }
+        .box5-1::after{
+            display: block;
+            content: "hello";
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+            background-color: brown;
+        }
+        h1::first-letter{
+            font-size: 50px;
+        }
+        h2::selection{
+            background: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <a href="www.youtube.com">Youtube</a>
+    <!-- box-sizing -->
+    <div class="box1" data-tittle="day la box 1">
+        <h1>Box-sizing</h1>
+    </div>
+    <!-- background -->
+    <div class="box2">
+        <h1>background-color + background-clip   = background-img+ background-origin</h1>
+    </div>
+    <div class="box3">
+        <h2>img</h2>
+    </div>
+    <!-- CSS funtion -->
+    <div class="box4" style="color: blanchedalmond;">
+        
+        <h1>CSS Funtion</h1>
+        <h2>var(bien)</h2>
+        <h2> linear-gradient()</h2>
+        
+        <h2>rgba()  // màu trong suốt</h2>
+        <h2>gba()</h2>
+        <h2>calc()(tính toán)</h2>
+        <h2>attr()</h2>
+    </div>
+    <!-- Pseudo classes -->
+    <div class="box5">
+        <h1>Lớp giả</h1>
+        <ul>
+            <li><h1>Dạng 1</h1></li>
+            <li>:root (đặt biến)</li>
+            <li class="Hover">:hover (di chuột)</li>
+            <li class="Active">:active (kích hoạt)</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+            <li><h1>Dạng 2</h1></li>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter(chữ đầu)</li>
+            <li>::first-line(dòng đầu tiên</li>
+            <li>::selection(kích hoạt khi bôi đen)</li>
+        </ul>
+        <div class="box5-1"></div>
+    </div>
+</body>
+</html>

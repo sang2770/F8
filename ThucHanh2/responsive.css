@@ -1,0 +1,126 @@
+@media (max-width:63.9375em){
+    .header__navbar{
+        display: none;
+    }
+    .header__menu .header__menu-item-l, .header__menu .header__menu-item-r{
+        display: none;
+    }
+    .default{
+        display: block !important;
+    }
+    .mt-8{
+        margin-top: 30px;
+    }
+    .one{
+        margin-top: -15px;
+    }
+    .section{
+        padding: 50px 15px 100px  15px;
+        border-bottom: 1px solid #ccc;
+    }
+    .banner_heading{
+        font-size: 4.67rem;
+        
+    }
+    .enable-menu .header__menu-submenu{
+        display: none;
+    }
+    .bar{
+        overflow:scroll;
+    }
+    .header__menu-item-l .enable .bar-title_heading::after{
+        display: none;
+    }
+    .enable .arrow-bar{
+        background-color: transparent;
+    }
+    .header_bar{
+        width: 100%;
+        
+    }
+    .header_submenu_bar{
+        width: 100%;
+        border-color: transparent;
+    }
+    .bar_bottom{
+        left: 0;
+        /* display: block; */
+        width: 100%;
+    }
+    .bar_section-list{
+        display: block;
+    }
+    .header_submenu_bar{
+        margin: 20px 0px;
+    }
+    .bar-language{
+        left: 0;
+        width: 100%;
+    }
+    .header__menu-item-l:hover .header__menu-submenu {
+        display: none;
+    }
+    .bar_list-icon{
+        margin-left: 0;
+    }
+    .close{
+        left: 0;
+    }
+    .bar{
+        padding: 0 30px;
+    }
+    .arrow-bar{
+        right: 0;
+    }
+    .bar_search{
+        padding: 8px;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 30px;
+    }
+    .bar_search span{
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+    input.bar_search-input{
+        /* margin-left: 30px; */
+        padding: 15px;
+        border: none;
+        font-size: 1.6rem;
+        width: 90%;
+        outline: none;
+
+    }
+    .bar_search{
+        display: block;
+    }
+    .header_submenu_bar{
+        /* display: none; */
+    }
+    .header_submenu_main .header_submenu_bar{
+        /* display: block; */
+    }
+    .header_submenu_main{
+        /* display: block; */
+    }
+
+    /* slider */
+    .glide{
+        width: 90vw !important;
+        margin: auto;
+    }
+ 
+}
+@media(min-width:46.25em ) and (max-width:63.9375em){
+    
+}  
+/* mobile */
+@media(max-width: 46.1875em ){
+    .banner_heading{
+        /* width: 440px; */
+        font-size: 3.67rem;
+    }
+    .footer_coder{
+        font-size: 1.9rem;
+    }
+} 

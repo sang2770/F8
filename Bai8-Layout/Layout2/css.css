@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.item{
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 180px;
+    background-color: orange;
+    line-height: 180px;
+}
+.main{
+    display: flex;
+    /* padding:0 22px; */
+    /* overflow: hidden; */
+}
+.sidebar{
+    width: 300px;
+    background-color: #666;
+
+}
+.content{
+    width: calc(100% - 300px);
+    flex-grow: 1;
+}
+@media(max-width:1024px)
+{
+    .hidden{
+        display: none;
+    }
+}
