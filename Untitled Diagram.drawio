@@ -1,12 +1,210 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="7bnuLrql5IIL3YsnmnHE">
-    <mxGraphModel dx="1193" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Onboarding Process">
+    <mxGraphModel dx="1193" dy="767" grid="1" gridSize="10" guides="1" tooltips="1"
+      connect="1" arrows="1" fold="1" page="1" pageScale="1"
+      pageWidth="1600" pageHeight="1200">
+
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="MhSaAIvgGtnc6uD79clD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="425" y="180" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Start -->
+        <mxCell id="start"
+          value="Bắt đầu&#10;Hoàn thành tuyển dụng"
+          style="ellipse;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="100" height="60" as="geometry"/>
         </mxCell>
+
+        <!-- Step 1 -->
+        <mxCell id="s1"
+          value="1. Chuẩn bị tiếp nhận"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="140" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Step 2 -->
+        <mxCell id="s2"
+          value="2. Tiếp nhận nhân sự ngày đầu"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Step 3 -->
+        <mxCell id="s3"
+          value="3. Đào tạo hội nhập và ATTT"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Step 4 -->
+        <mxCell id="s4"
+          value="4. Đào tạo theo lộ trình phòng ban / chức danh"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="820" y="210" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Step 5 -->
+        <mxCell id="s5"
+          value="5. Đánh giá tuần 1"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1080" y="210" width="140" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Decision -->
+        <mxCell id="d1"
+          value="Phù hợp?"
+          style="rhombus;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1280" y="220" width="100" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Improvement -->
+        <mxCell id="improve"
+          value="Hỗ trợ / Cải thiện"
+          style="rounded=1;fillColor=#fff2cc;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1260" y="360" width="140" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Mid review -->
+        <mxCell id="s6"
+          value="6. Đánh giá giữa kỳ (Sau 01 tháng)"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1460" y="210" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Training complete -->
+        <mxCell id="d2"
+          value="Đạt tiến độ đào tạo?"
+          style="rhombus;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1700" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Action Plan -->
+        <mxCell id="plan"
+          value="Lập kế hoạch cải thiện"
+          style="rounded=1;fillColor=#fff2cc;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1700" y="360" width="160" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Final review -->
+        <mxCell id="s7"
+          value="7. Đánh giá kết thúc thử việc"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="1900" y="210" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Complete -->
+        <mxCell id="d3"
+          value="Hoàn thành lộ trình?"
+          style="rhombus;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="2140" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Not pass -->
+        <mxCell id="fail"
+          value="Đề xuất không đạt"
+          style="rounded=1;fillColor=#f8cecc;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="2140" y="360" width="140" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Approval -->
+        <mxCell id="s8"
+          value="8. Phê duyệt kết quả"
+          style="rounded=1;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="2340" y="210" width="160" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- End -->
+        <mxCell id="end"
+          value="Kết thúc"
+          style="ellipse;whiteSpace=wrap;html=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="2580" y="220" width="100" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges -->
+        <mxCell id="e1" edge="1" parent="1" source="start" target="s1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" edge="1" parent="1" source="s1" target="s2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" edge="1" parent="1" source="s2" target="s3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" edge="1" parent="1" source="s3" target="s4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e5" edge="1" parent="1" source="s4" target="s5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e6" edge="1" parent="1" source="s5" target="d1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e7" value="Có" edge="1" parent="1" source="d1" target="s6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e8" value="Không" edge="1" parent="1" source="d1" target="improve">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e9" edge="1" parent="1" source="improve" target="s6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e10" edge="1" parent="1" source="s6" target="d2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e11" value="Có" edge="1" parent="1" source="d2" target="s7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e12" value="Không" edge="1" parent="1" source="d2" target="plan">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e13" edge="1" parent="1" source="plan" target="s7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e14" edge="1" parent="1" source="s7" target="d3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e15" value="Có" edge="1" parent="1" source="d3" target="s8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e16" value="Không" edge="1" parent="1" source="d3" target="fail">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e17" edge="1" parent="1" source="s8" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
