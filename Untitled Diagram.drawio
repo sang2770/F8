@@ -214,4 +214,170 @@
       </root>
     </mxGraphModel>
   </diagram>
+
+<diagram name="Onboarding Swimlane">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Header Title -->
+        <mxCell id="title" value="PHỤ LỤC: LƯU ĐỒ SWIMLANE ONBOARDING" style="text;strokeColor=none;fillColor=#003399;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1540" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Column Headers -->
+        <mxCell id="col1" value="GIAI ĐOẠN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#003366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col2" value="HCNS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#2D7D32;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col3" value="KTVH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#1A237E;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col4" value="BAN ISO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#4A148C;" vertex="1" parent="1">
+          <mxGeometry x="780" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col5" value="TRƯỞNG BỘ PHẬN /&#10;NGƯỜI ĐÀO TẠ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#E65100;" vertex="1" parent="1">
+          <mxGeometry x="980" y="60" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="col6" value="NHÂN SỰ MỚI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d0d0d0;fontStyle=1;fontColor=#006064;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 1 -->
+        <mxCell id="s1_title" value="1. Chuẩn bị tiếp nhận" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_hcns" value="Chuẩn bị hồ sơ, thông tin tiếp nhận" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="135" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_ktvh" value="Chuẩn bị tài khoản, thiết bị,&#10;phần mềm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="135" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_tbp" value="Xây dựng kế hoạch đào tạo,&#10;phân công người hướng dẫn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="135" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 2 -->
+        <mxCell id="s2_title" value="2. Tiếp nhận nhân sự ngày đầu" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_hcns" value="Làm thủ tục nhận việc, giới thiệu,&#10;ký cam kết bảo mật ATTT,&#10;ký HĐ thử việc, bàn giao tài sản&#10;(thẻ thang máy, VPP,...)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="215" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_ktvh" value="Bàn giao thiết bị, tài khoản&#10;hướng dẫn sử dụng" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#2196F3;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_new" value="Nhận thiết bị, tài khoản,&#10;ký cam kết bảo mật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="230" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 3 -->
+        <mxCell id="s3_title" value="3. Đào tạo hội nhập và ATTT" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="310" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_hcns" value="Tổ chức đào tạo hội nhập" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="325" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_iso" value="Đào tạo nhận thức ATTT,&#10;ký xác nhận hoàn thành" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#9C27B0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="790" y="325" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_new" value="Tham gia đào tạo&#10;hội nhập và ATTT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="325" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 4 -->
+        <mxCell id="s4_title" value="4. Đào tạo theo lộ trình&#10;phòng ban/chức danh" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_tbp" value="Đào tạo theo lộ trình phòng ban/&#10;chức danh, theo dõi tiến độ,&#10;ký xác nhận từng nội dung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="400" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b4_new" value="Tham gia đào tạo,&#10;thực hành công việc,&#10;ký xác nhận từng nội dung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="400" width="210" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 5 -->
+        <mxCell id="s5_title" value="5. Đánh giá tuần 1" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_tbp" value="Đánh giá tuần 1,&#10;ghi nhận khó khăn, vướng mắc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="490" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b5_new" value="Trao đổi khó khăn,&#10;tiếp nhận phản hồi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="490" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 6 -->
+        <mxCell id="s6_title" value="6. Đánh giá giữa kỳ&#10;(Sau 01 tháng)" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="550" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_hcns" value="Tham dự đánh giá&#10;giữa kỳ, lưu hồ sơ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="565" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_tbp" value="Đánh giá giữa kỳ,&#10;xác định hỗ trợ cần thiết" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="565" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b6_new" value="Trao đổi, đề xuất&#10;hỗ trợ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="565" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 7 -->
+        <mxCell id="s7_title" value="7. Đánh giá kết thúc thử việc" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="b7_hcns" value="Tổng hợp hồ sơ đào tạo,&#10;kiểm tra hoàn thành" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="655" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b7_tbp" value="Đánh giá kết thúc thử việc,&#10;lập phiếu đánh giá&#10;(BM.QT.001.03_Đánh giá thử việc)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="645" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b7_new" value="Tự đánh giá,&#10;trao đổi kết quả" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#009688;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="655" width="210" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- STAGE 8 -->
+        <mxCell id="s8_title" value="8. Phê duyệt kết quả" style="text;html=1;strokeColor=#d0d0d0;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b8_hcns" value="Trình BGĐ phê duyệt&#10;kết quả thử việc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#8BC34A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="240" y="745" width="230" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- BGĐ Box (Bottom) -->
+        <mxCell id="bgd_box" value="BGĐ phê duyệt kết quả thử việc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FF9800;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Connection Lines -->
+        <mxCell id="L1" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b1_hcns" target="b1_ktvh"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L2" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b1_ktvh" target="b1_tbp"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L3" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b2_hcns" target="b2_ktvh"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L4" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b2_ktvh" target="b2_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L5" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b3_hcns" target="b3_iso"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L6" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b3_iso" target="b3_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L7" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b4_tbp" target="b4_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L8" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b5_tbp" target="b5_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L9" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b6_hcns" target="b6_tbp"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L10" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b6_tbp" target="b6_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L11" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b7_hcns" target="b7_tbp"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="L12" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeColor=#808080;" edge="1" parent="1" source="b7_tbp" target="b7_new"><mxGeometry relative="1" as="geometry" /></mxCell>
+        
+        <!-- Bottom Approval Lines -->
+        <mxCell id="L_app1" style="endArrow=classic;html=1;dashed=1;strokeColor=#808080;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b8_hcns" target="bgd_box">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="355" y="855" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_app2" style="endArrow=classic;html=1;dashed=1;strokeColor=#808080;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7_tbp" target="bgd_box">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1130" y="855" /></Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
